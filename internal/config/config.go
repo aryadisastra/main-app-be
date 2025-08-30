@@ -27,7 +27,7 @@ func Load() *Config {
 	}
 
 	return &Config{
-		AppPort:   get("APP_PORT", "8081"),
+		AppPort:   get("APP_PORT", "8082"),
 		DBDsn:     dsn,
 		JWTSecret: get("JWT_SECRET", "eeee1234qq11"),
 		Env:       get("ENV", "dev"),
